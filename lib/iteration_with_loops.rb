@@ -14,7 +14,7 @@ def find_min_in_nested_arrays(src)
     end
   
     inner_count += 1
-    smallest_number << min_value
+    # smallest_number << min_value
   end
   count += 1
 
