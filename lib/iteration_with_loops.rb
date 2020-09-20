@@ -11,12 +11,12 @@ def find_min_in_nested_arrays(src)
         min_value = src[count][inner_count]
         puts min_value
       end
+    inner_count += 1
     end
   
-    inner_count += 1
     # smallest_number << min_value
-  end
   count += 1
+  end
 
   smallest_number
 end
